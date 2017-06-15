@@ -1,1 +1,1 @@
-This GitHub page was built onto the [Bare](http://startbootstrap.com/template-overviews/bare/) Bootstrap template, which is licensed under the MIT license that is copied in the LICENSE file in this repository.
+This GitHub page was built onto the [Bare](http://startbootstrap.com/template-overviews/bare/) Bootstrap template, which is licensed under the MIT license that is copied in the LICENSE-FOR-Template file in this repository. The content added on top of this template, such as figures and text, do not fall under this license.

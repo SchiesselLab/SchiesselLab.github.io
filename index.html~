@@ -138,7 +138,7 @@
                     <span class="projectdesc"> 
                         <h3> 3D Visualization of the RBP Model </h3>
                         <p style="text-align: justify">
-                            Built on <a href="https://threejs.org" target="_blank">three.js</a>, this project provides in-browser 3D visualization of the Rigid Base Pair model. Live version <a href="RBP3D/">here</a>. It has been used to provide visuals for various publications:
+                            Built on <a href="https://threejs.org" target="_blank">three.js</a>, this project provides in-browser 3D visualization of the Rigid Base Pair model. Live version <a href="RBP3D/index.html">here</a>. It has been used to provide visuals for various publications:
                             <ul style="text-align: left">
                                 <li>Tompitak and Schiessel, Nederlands Tijdschrift voor Natuurkunde 83 (2017) 164-167</li>
                                 <li>Tompitak et al., Phys. Rev. E 95 (2017) [<a href="https://doi.org/10.1103/PhysRevE.95.052402" target="_blank">doi</a>]</li>

@@ -1,12 +1,167 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<title>Schiessel Lab on GitHub</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Schiessel Lab GitHub Page</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+    body {
+        padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+
+    div.project {
+        max-width: 1000px; 
+        width: 70%; 
+        margin: 0 auto; 
+        border: 1px solid; 
+        padding: 0.5em; 
+        overflow: auto;
+        margin-bottom: 4em;
+        margin-top: 4em
+    }
+
+    span.projectimage {
+        float: left; 
+        width: 25%
+    }
+
+    span.projectdesc {
+        width: 75%; 
+        display: table-cell
+    }
+
+    a.projecttitle:link {
+        color: black;
+        text-decoration: none
+    }    
+
+    a.projecttitle:visited {
+        color: black;
+        text-decoration: none
+    }
+
+    a.projecttitle:hover {
+        color: gray;
+        text-decoration: none
+    }
+
+    a.projecttitle:active {
+        color: black;
+        text-decoration: none
+    }
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 
 <body>
-<h1>Schiessel Lab GitHub Page</h1>
-<p>Welcome to the GitHub page of the Theoretical Biophysics group of Prof. Helmut Schiessel at Leiden University. We will be updating this shortly.</p>
-<p>Projects:</p>
-<p><a href="https://github.com/SchiesselLab/MarkovModel" target="_blank">Markov chain model</a></p>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Schiessel Lab</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1>The Schiessel Lab code repository</h1>
+                <p class="lead">You're on the GitHub page for the Theoretical Physics of Life Processes group at Leiden University, led by Helmut Schiessel. Below you'll find information about the projects in our <a href="https://github.com/SchiesselLab" target="_blank">GitHub repositories</a>. More information about the group itself and its research can be found on the <a href="http://www.lorentz.leidenuniv.nl/~schiessel/" target="_blank">group website</a>.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1>Our repositories</h1>
+                <p class="lead">The Schiessel Lab's GitHub repositories can be found at <a href="https://github.com/SchiesselLab/" target="_blank">github.com/SchiesselLab</a>. Here follow descriptions of our various computational projects.</p>
+
+                <div class="project" id="proj-markov">
+                    <span class="projectimage"> <img src="Selection.png" style="width: 90%" /> </span>
+                    <span class="projectdesc"> 
+                        <h3> <a class="projecttitle" href="https://github.com/SchiesselLab/MarkovModel">Nucleosome Positioning with Markov Chains</a> </h3>
+                        <p style="text-align: justify">
+                            Combining the basic idea for a Markov chain model for sequence-dependent nucleosome positioning presented by Segal et al. (2006) [<a href="https://www.doi.org/10.1038/nature04979" target="_blank">doi</a>] with nucleosomal sequence preference statistics derived from the Mutation Monte Carlo method of Eslami-Mossallam et al. (2016) [<a href="https://doi.org/10.1371/journal.pone.0156905" target="_blank">open access</a>] leads to a computationally efficient method for predicting nucleosome affinity from based on a theoretical model of the nucleosome. 
+                        </p>
+                        <p style="text-align: justify">
+                            This methodology is explained and applied in the following publications: 
+                            <ul style="text-align: left">
+                                <li>Tompitak et al., BMC Bioinformatics 18 (2017), 157 [<a href="https://www.doi.org/10.1186/s12859-017-1569-0" target="_blank">open access</a>]</li>
+                                <li> Tompitak et al., Biophysical Journal 112 (2017), 505-511 [<a href="http://dx.doi.org/10.1016/j.bpj.2016.12.041" target="_blank">doi</a>]</li>
+                            </ul>
+                        </p>
+                    </span>
+                </div>
+
+                <div class="project" id="proj-rbp3d">
+                    <span class="projectimage"> <img src="Nucleosome.png" style="width: 90%" /> </span>
+                    <span class="projectdesc"> 
+                        <h3> 3D Visualization of the RBP Model </h3>
+                        <p style="text-align: justify">
+                            Built on <a href="https://threejs.org" target="_blank">three.js</a>, this project provides in-browser 3D visualization of the Rigid Base Pair model. Live version <a href="RBP3D/index.html">here</a>. It has been used to provide visuals for various publications:
+                            <ul style="text-align: left">
+                                <li>Tompitak and Schiessel, Nederlands Tijdschrift voor Natuurkunde 83 (2017) 164-167</li>
+                                <li>Tompitak et al., Phys. Rev. E 95 (2017) [<a href="https://doi.org/10.1103/PhysRevE.95.052402" target="_blank">doi</a>]</li>
+                                <li>Tompitak et al., EPL 116 (2016) 68005 [<a href="https://doi.org/10.1209/0295-5075/116/68005" target="_blank">doi</a>]</li>
+                                <li>De Bruin et al., J. Phys. Chem. B 120 (2016), 5855-5863 [<a href="https://www.doi.org/10.1021/acs.jpcb.6b00391" target="_blank">doi</a>]</li>
+                            </ul>
+                    </span>
+                </div>
+
+            </div>
+        </div>
+        <!-- /.row -->
+
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
 </body>
+
 </html>

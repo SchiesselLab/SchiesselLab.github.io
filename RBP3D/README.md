@@ -1,0 +1,1 @@
+This software is built upon three.js (https://threejs.org/) and makes use of the three.js trackball controls (https://threejs.org/examples/misc_controls_trackball.html). The screenshot functionality is provided by the reimg library (https://github.com/gillyb/reimg).
